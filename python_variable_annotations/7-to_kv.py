@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+"""
+    Create a tuple with the string 'k' and the square of 'v'.
+"""
 from typing import Union, Tuple
 
 
