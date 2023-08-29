@@ -11,5 +11,5 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     coroutine and returns them in ascending order."""
     wait_times = []
     for i in range(n):
-        list_float.append(await(wait_random(max_delay)))
+        wait_times.append(await(wait_random(max_delay)))
     return sorted(wait_times)
