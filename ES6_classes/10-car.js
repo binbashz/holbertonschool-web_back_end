@@ -5,7 +5,8 @@ export default class Car {
     this._color = color;
   }
 
+  // this method return a new object of the same class
   cloneCar() {
-    // create a new object with the constructor of current instance
     return new this.constructor();
   }
+}
