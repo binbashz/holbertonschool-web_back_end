@@ -1,7 +1,6 @@
 # holbertonschool-web_back_end
 
 
-
 ## ES6_basic
 - Basics of ES6 (ECMAScript 2015) in JavaScript.
 - Examples of block-scoped variables.
