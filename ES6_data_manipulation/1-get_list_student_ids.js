@@ -9,6 +9,4 @@ function getListStudentIds(studentList) {
 
   return idList;
 }
-
 export default getListStudentIds;
-
