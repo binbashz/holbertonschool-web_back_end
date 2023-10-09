@@ -1,4 +1,4 @@
-## [Estructuras y tipos de datos](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#estructuras_y_tipos_de_datos)
+## [Estructuras y tipos de datos](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#estructuras_y_tipos_de_datos) en JavaScript
 
 El último estándar ECMAScript define nueve tipos:
 
