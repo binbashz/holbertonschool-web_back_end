@@ -1,8 +1,12 @@
-function cleanSet(Set, startString) {
+function cleanSet(set, startString) {
+  if (typeof startString !== 'string') {
+    return '';
+  }
+
   const cleanedValues = [];
 
-  for (const value of Set) {
-    if (value.startsWith(startString)) {
+  for (const value of set) {
+    if (typeof value === 'string' && value.startsWith(startString)) {
       cleanedValues.push(value.slice(startString.length));
     }
   }
@@ -11,5 +15,4 @@ function cleanSet(Set, startString) {
 }
 
 export default cleanSet;
-
 
