@@ -1,7 +1,15 @@
-export default function cleanSet(set, startString) {
-  // Use the filter() method to select values that start with startString
-  const selectedValues = [...set].filter((value) => value.startsWith(startString));
-  // Join the selected values with "-"
-  return selectedValues.join('-');
+function cleanSet(Set, startString) {
+  const cleanedValues = [];
+
+  for (const value of Set) {
+    if (value.startsWith(startString)) {
+      cleanedValues.push(value.slice(startString.length));
+    }
+  }
+
+  return cleanedValues.join('-');
 }
+
+export default cleanSet;
+
 
